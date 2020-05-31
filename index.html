@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBook- Chat App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="./client.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="d-inline" style="display: flex; align-items: center; justify-content: center;">
+            <h1 style="color: rgb(0, 195, 255);  font-size: 2rem;">Chat App - From ChatBook</h1>
+            <img src="chat.png" alt="img" class="logo">
+        </div>
+        <div class="message-box">
+            
+        </div>
+        <form class="messageInput" id="msg-form">
+            <input type="text" name="msg" id="msg" placeholder="Enter Your Meessage Here">
+            <input type="submit" value="Submit" class="submit">
+        </form>
+    </div>
+</body>
+</html>
